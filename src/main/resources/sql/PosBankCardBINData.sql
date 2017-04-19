@@ -1,0 +1,2 @@
+#以创建视图的方式让Phoenix与hbase表关联
+create view "POSBANKCARDBIN" (pk VARCHAR PRIMARY KEY,"CF".POSBANKCARDBIN_UUID varchar , "CF".card_bank varchar, "CF".card_name varchar, "CF".card_num_len varchar, "CF".card_num_style varchar, "CF".card_six_bits varchar, "CF".card_type varchar);
